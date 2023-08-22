@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Lato:ital,wght@0,400;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    background-image: url("../img/pelota-de-tenis.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 10rem;
+    background-position: center;
+}
+
+.header{
+    padding: 2rem;
+}
+
+.logo{
+    display: flex;
+    height: 75px;
+}
+
+.menu{
+    font-family: 'Lato' , sans-serif , cursive;
+    display: flex;
+    align-self: center;
+    list-style-type: none;
+    padding: 0.6rem;
+}
+
+.menu li a{
+    display: flex;
+    color: white;
+    padding-top: 20%;
+    margin-left: 80px;
+    margin-right: 100px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hero-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 2.9rem;
+    align-self: center;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+
+.Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center center;
+    padding: 1.5rem;
+    background-color: black;
+}
+
+.Text-1{
+    font-family: 'Lato' , sans-serif , cursive;
+    font-size: 2.7rem;
+    color: rgb(230, 226, 226);
+}
+
+.Text-2{
+    font-family: 'Lato' , sans-serif ,cursive;
+    font-size: 1.5rem;
+    color: rgb(230, 226, 226);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-block-end: 20px;
+    background-color: black;
+}
+
+.nike{
+    display: flex;
+    width:fit-content;
+    height: 100px;
+}
+
+.pie-1{
+    display: flex;
+    margin-top: 3%;
+    color: aliceblue;
+}
+
+.pie-2{
+    display: flex;
+    margin-top: 3%;
+    color: aliceblue;
+}
+
+.form__checkBoxes{
+    color: whitesmoke;
+}
+
+.btn.btn-secondary{
+    display: block;
+    background-color: darkslategray;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+button.btn.btn-secondary.form__sendButton {
+    margin-left: inherit;
+    background-color: darkslategray;
+}
+
+button.btn.btn-secondary.form__resetButton {
+    margin-left: inherit;
+    background-color: darkslategrey;
+}
+
+.slider-frame{
+    width: 900px;
+    height: 750px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider-frame ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-frame li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frame img{
+    width: 900px;
+    height: 700px;
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+}
+
+.instalaciones{
+        display: flex;
+        font-family: 'Lato' , sans-serif , cursive;
+        flex-direction: column;
+        align-items: center center;
+        padding: 1.5rem;
+        color: aliceblue;
+        font-size: 1.5rem;
+}
+
+
+.b-PTA{
+    color: yellow;
+}
