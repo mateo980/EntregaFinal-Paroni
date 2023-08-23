@@ -12,7 +12,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 10rem;
-    background-position: center;
+    background-position: center center;
 }
 
 .header{
@@ -57,7 +57,7 @@
     flex-direction: column;
     align-items: center center;
     padding: 1.5rem;
-    background-color: black;
+    background-color: rgb(12, 2, 2);
 }
 
 .Text-1{
@@ -102,11 +102,18 @@
     color: whitesmoke;
 }
 
+.formulario{
+    background-color: rgb(12, 2, 2);
+    padding: 80px 20px 80px 20px;
+}
+
 .btn.btn-secondary{
     display: block;
     background-color: darkslategray;
     margin-left: 40%;
     margin-right: 40%;
+    align-items: center;
+    justify-content: center;
 }
 
 button.btn.btn-secondary.form__sendButton {
@@ -166,9 +173,36 @@ button.btn.btn-secondary.form__resetButton {
         padding: 1.5rem;
         color: aliceblue;
         font-size: 1.5rem;
+        background-color: rgb(12, 2, 2);
 }
 
 
 .b-PTA{
     color: yellow;
+}
+
+.tarjetitas{
+    display: flex;
+    padding: 60px;
+    gap: 30px;
+    background-color: rgb(12, 2, 2);
+}
+
+.tarjetita{
+    background-color: darkolivegreen;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.informacion{
+    padding: 0 20px 20px 20px;
+}
+
+.tarjetita__imagen{
+    width: 100%;
+    height: 300px;
 }
