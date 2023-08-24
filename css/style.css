@@ -227,6 +227,7 @@ button.btn.btn-secondary.form__resetButton {
     height: 222px;
     align-self: center;
     margin-top: 14px;
+    border: 6px solid rgb(182, 140, 62);
 }
 
 .tarjetita1{
@@ -271,4 +272,27 @@ button.btn.btn-secondary.form__resetButton {
 
 .tarjetita__texto{
     color: black;
+}
+
+
+.instalaciones__all{
+    background-color: rgb(12, 2, 2);
+}
+
+.container__all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    margin-top: 100px;
+
+}
+
+.container__all img{
+    width: 300px;
+}
+
+.container__titulo{
+    font-family: 'Lato', sans-serif, cursive;
+    font-size: 40px;
 }
