@@ -100,13 +100,22 @@
     color: aliceblue;
 }
 
-.form__checkBoxes{
-    color: whitesmoke;
-}
-
-.formulario{
+.contacto{
     background-color: rgb(12, 2, 2);
     padding: 80px 20px 80px 20px;
+    flex-direction: column;
+}
+
+.contacto__texto{
+    font-family: 'Lato', sans-serif, cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10%;
+}
+
+.form__checkBoxes{
+    color: whitesmoke;
 }
 
 .btn.btn-secondary{
@@ -188,6 +197,9 @@ button.btn.btn-secondary.form__resetButton {
     display: flex;
     padding: 60px;
     gap: 30px;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -211,8 +223,10 @@ button.btn.btn-secondary.form__resetButton {
 }
 
 .tarjetita__imagen{
-    width: 100%;
+    width: 22%;
     height: 222px;
+    align-self: center;
+    margin-top: 14px;
 }
 
 .tarjetita1{
@@ -253,4 +267,8 @@ button.btn.btn-secondary.form__resetButton {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.tarjetita__texto{
+    color: black;
 }
