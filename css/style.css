@@ -176,18 +176,6 @@ button.btn.btn-secondary.form__resetButton {
     95%{margin-left: -300%;}
 }
 
-.instalaciones{
-        display: flex;
-        font-family: 'Lato' , sans-serif , cursive;
-        flex-direction: column;
-        align-items: center center;
-        text-align: center;
-        padding: 1.5rem;
-        color: aliceblue;
-        font-size: 1.5rem;
-        background-color: rgb(12, 2, 2);
-}
-
 
 .b-PTA{
     color: yellow;
@@ -275,23 +263,37 @@ button.btn.btn-secondary.form__resetButton {
 }
 
 
+.instalaciones{
+    display: flex;
+    font-family: 'Lato' , sans-serif , cursive;
+    flex-direction: column;
+    align-items: center center;
+    text-align: center;
+    padding: 1.5rem;
+    color: aliceblue;
+    font-size: 1.5rem;
+    background-color: rgb(12, 2, 2);
+}
+
 .instalaciones__all{
     background-color: rgb(12, 2, 2);
+    padding-bottom: 15%;
 }
 
 .container__all{
     width: 100%;
     max-width: 1000px;
-    margin: auto;
-    padding: 60px;
-    margin-top: 100px;
-
+    padding: 100px;
+    background-color: black;
+    margin-left: 13%;
 }
 
 .container__all img{
-    width: 300px;
+    width: 350px;
+    height: 200px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    border: 6px solid yellow;
 }
 
 .container__all p{
@@ -304,9 +306,9 @@ button.btn.btn-secondary.form__resetButton {
 
 .container__titulo{
     font-family: 'Lato', sans-serif, cursive;
-    font-size: 50px;
-    margin-bottom: 60px;
-    font-weight: 400px;
+    font-size: 45px;
+    margin-bottom: 35px;
+    font-weight: 380px;
     color: aliceblue;
 }
 
@@ -324,4 +326,36 @@ button.btn.btn-secondary.form__resetButton {
 
 .container4 img{
     float: right;
+}
+
+.container5 img{
+    float: left;
+}
+
+.container1{
+    padding-bottom: 60px;
+}
+
+.container2{
+    padding-bottom: 60px;
+}
+
+.container3{
+    padding-bottom: 60px;
+}
+
+.container4{
+    padding-bottom: 60px;
+}
+
+.container5{
+    padding-bottom: 60px;
+}
+
+.container2 h1{
+    margin-left: 75%;
+}
+
+.container4 h1{
+    margin-left: 75%;
 }
