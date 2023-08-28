@@ -8,11 +8,25 @@
 
 
 .hero{
-    background-image: url("../img/pelota-de-tenis.jpg");
+    background-color: rgb(12, 2, 2);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 10rem;
     background-position: center center;
+}
+
+.hero-text h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgb(12, 2, 2);
+}
+
+.hero-text h4{
+    font-style: 'Lato' , sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(12, 2, 2);
 }
 
 .header{
@@ -23,6 +37,7 @@
     display: flex;
     height: 75px;
 }
+
 
 .menu{
     font-family: 'Lato' , sans-serif , cursive;
@@ -383,6 +398,14 @@ button.btn.btn-secondary.form__resetButton {
     margin-left: 45%;
     text-align: center;
     font-weight: bolder;
+}
+
+.navbar-toggler{
+    border: none !important;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none !important;
 }
 
 
