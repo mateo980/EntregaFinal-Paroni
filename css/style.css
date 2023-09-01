@@ -80,6 +80,7 @@
     font-size: 2.7rem;
     font-weight: bolder;
     color: rgb(230, 226, 226);
+    margin-top: 5%;
 }
 
 .Text-2{
@@ -298,6 +299,7 @@ button.btn.btn-secondary.form__resetButton {
 .instalaciones__all{
     background-color: rgb(12, 2, 2);
     padding-bottom: 15%;
+    padding-top: 5%;
 }
 
 .container__all{
