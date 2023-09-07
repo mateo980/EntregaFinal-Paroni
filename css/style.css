@@ -411,4 +411,66 @@ button.btn.btn-secondary.form__resetButton {
 }
 
 
+@media screen and (max-width:867px) {
+    .navbar-toggler{
+        margin-left: auto;
+    }
 
+    .tarjetita__imagen{
+        width: auto;
+    }
+
+    .container__all{
+        width: auto;
+        margin-right: 80px;
+    }
+
+    .container1 img{
+        float: none;
+    }
+
+    .container2 img{
+        float: none;
+        }
+
+    .container3 img{
+        float: none;
+        }
+
+    .container4 img{
+        float: none;
+        }
+
+    .container5 img{
+        float: none;
+        }
+
+    
+     .container1 .container__titulo{
+        margin-left: auto;
+    }
+
+    .container2 .container__titulo{
+        margin-left: auto;
+    }
+
+    .container3 .container__titulo{
+        margin-left: auto;
+    }
+
+    .container4 .container__titulo{
+        margin-left: auto;
+    }
+
+    .container5 .container__titulo{
+        margin-left: auto;
+        margin-right: 170px;
+        
+    }
+
+    .navbar-nav{
+        align-items: end;
+        margin-left: 75%;
+    }
+
+}
