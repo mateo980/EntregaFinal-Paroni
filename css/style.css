@@ -13,6 +13,7 @@
     background-repeat: no-repeat;
     padding-bottom: 10rem;
     background-position: center center;
+    min-height: 85vh;
 }
 
 .hero-text h1{
@@ -27,10 +28,6 @@
     color: white;
     text-align: center;
     background-color: rgb(12, 2, 2);
-}
-
-.header{
-    padding: 2rem;
 }
 
 .logo{
@@ -95,8 +92,7 @@
     justify-content: space-around;
     padding-block: 20px;
     background-color: black;
-    text-align: center
-    ;
+    text-align: center;
 }
 
 .nike{
@@ -158,15 +154,13 @@ button.btn.btn-secondary.form__resetButton {
 .slider-frame{
     width: 900px;
     height: 750px;
-    margin: 50px auto 0;
     overflow: hidden;
 }
 
 .slider-frame ul{
     display: flex;
     padding: 0;
-    width: 400%;
-
+    width: 100%;
     animation: slide 16s infinite alternate ease-in-out;
 }
 
@@ -176,7 +170,7 @@ button.btn.btn-secondary.form__resetButton {
 }
 
 .slider-frame img{
-    width: 800px;
+    width: 900px;
     height: 700px;
 }
 
@@ -229,7 +223,6 @@ button.btn.btn-secondary.form__resetButton {
 }
 
 .tarjetita__imagen{
-    width: 22%;
     height: 222px;
     align-self: center;
     margin-top: 20px;
@@ -421,31 +414,10 @@ button.btn.btn-secondary.form__resetButton {
     }
 
     .container__all{
-        width: auto;
-        margin-right: 80px;
+        padding: 0%;
+        margin-left: 0%;
     }
 
-    .container1 img{
-        float: none;
-    }
-
-    .container2 img{
-        float: none;
-        }
-
-    .container3 img{
-        float: none;
-        }
-
-    .container4 img{
-        float: none;
-        }
-
-    .container5 img{
-        float: none;
-        }
-
-    
      .container1 .container__titulo{
         margin-left: auto;
     }
@@ -472,5 +444,21 @@ button.btn.btn-secondary.form__resetButton {
         align-items: end;
         margin-left: 75%;
     }
+
+        .slider-frame img{
+            width: 100%;
+            height: auto
+        }
+
+        .slider-frame li{
+            width: 100% ;
+        }
+
+        .slider-frame{
+            width: 100%;
+            margin: 0;
+        }
+
+
 
 }
